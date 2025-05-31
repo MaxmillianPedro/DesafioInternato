@@ -15,7 +15,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/semestres")
-@Tag(name = "Usuários", description = "Operações relacionadas a usuários")
 public class SemestreLetivoController {
 
     private final SemestreLetivoService service;
